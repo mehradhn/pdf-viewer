@@ -29,7 +29,7 @@ function Upload() {
         reader.onloadend = (e) => {
           setPdfError("");
           setPdf(e.target.result);
-          //console.log(e.target.result);
+          console.log(e.target.result);
         };
       } else {
         setPdfError("Not a valid pdf: please select only pdf");
